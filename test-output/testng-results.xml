@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="254381" started-at="2023-03-20T18:25:17Z" finished-at="2023-03-20T18:29:31Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="254381" started-at="2023-03-20T18:25:17Z" finished-at="2023-03-20T18:29:31Z">
+      <class name="cucumber.Options.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="setUpClass" is-config="true" duration-ms="6386" started-at="2023-03-20T23:55:17Z" finished-at="2023-03-20T23:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cae66a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="runScenario" duration-ms="67665" started-at="2023-03-20T23:55:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-20T23:56:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculate borrowing estimate for person with below details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="runScenario" duration-ms="57096" started-at="2023-03-20T23:56:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-20T23:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Clicking the 'start over' button clears the form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="runScenario" duration-ms="52981" started-at="2023-03-20T23:57:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-20T23:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Borrowing Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@62150f9e]" name="tearDownClass" is-config="true" duration-ms="70215" started-at="2023-03-20T23:58:21Z" finished-at="2023-03-20T23:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.Options.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
